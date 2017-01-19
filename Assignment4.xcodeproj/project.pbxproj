@@ -14,6 +14,10 @@
 		C52AC2531DBD9ADB008765EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52AC2511DBD9ADB008765EB /* LaunchScreen.storyboard */; };
 		C52AC25E1DBD9ADB008765EB /* Assignment4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AC25D1DBD9ADB008765EB /* Assignment4Tests.swift */; };
 		C52AC2691DBD9ADB008765EB /* Assignment4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AC2681DBD9ADB008765EB /* Assignment4UITests.swift */; };
+		C52AC2771DBD9B4F008765EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AC2761DBD9B4F008765EB /* FirstViewController.swift */; };
+		C52AC2791DBD9B5A008765EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AC2781DBD9B5A008765EB /* SecondViewController.swift */; };
+		C52AC27B1DBD9B6A008765EB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AC27A1DBD9B6A008765EB /* ThirdViewController.swift */; };
+		C52AC27D1DBD9C23008765EB /* Food.plist in Resources */ = {isa = PBXBuildFile; fileRef = C52AC27C1DBD9C23008765EB /* Food.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C52AC2641DBD9ADB008765EB /* Assignment4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52AC2681DBD9ADB008765EB /* Assignment4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment4UITests.swift; sourceTree = "<group>"; };
 		C52AC26A1DBD9ADB008765EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52AC2761DBD9B4F008765EB /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C52AC2781DBD9B5A008765EB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C52AC27A1DBD9B6A008765EB /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C52AC27C1DBD9C23008765EB /* Food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Food.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		C52AC2471DBD9ADB008765EB /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
+				C52AC27C1DBD9C23008765EB /* Food.plist */,
 				C52AC2481DBD9ADB008765EB /* AppDelegate.swift */,
 				C52AC24A1DBD9ADB008765EB /* ViewController.swift */,
 				C52AC24C1DBD9ADB008765EB /* Main.storyboard */,
 				C52AC24F1DBD9ADB008765EB /* Assets.xcassets */,
 				C52AC2511DBD9ADB008765EB /* LaunchScreen.storyboard */,
 				C52AC2541DBD9ADB008765EB /* Info.plist */,
+				C52AC2761DBD9B4F008765EB /* FirstViewController.swift */,
+				C52AC2781DBD9B5A008765EB /* SecondViewController.swift */,
+				C52AC27A1DBD9B6A008765EB /* ThirdViewController.swift */,
 			);
 			path = Assignment4;
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52AC27D1DBD9C23008765EB /* Food.plist in Resources */,
 				C52AC2531DBD9ADB008765EB /* LaunchScreen.storyboard in Resources */,
 				C52AC2501DBD9ADB008765EB /* Assets.xcassets in Resources */,
 				C52AC24E1DBD9ADB008765EB /* Main.storyboard in Resources */,
@@ -259,6 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52AC2791DBD9B5A008765EB /* SecondViewController.swift in Sources */,
+				C52AC2771DBD9B4F008765EB /* FirstViewController.swift in Sources */,
+				C52AC27B1DBD9B6A008765EB /* ThirdViewController.swift in Sources */,
 				C52AC24B1DBD9ADB008765EB /* ViewController.swift in Sources */,
 				C52AC2491DBD9ADB008765EB /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +521,7 @@
 				C52AC26F1DBD9ADB008765EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52AC2701DBD9ADB008765EB /* Build configuration list for PBXNativeTarget "Assignment4Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				C52AC2721DBD9ADB008765EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52AC2731DBD9ADB008765EB /* Build configuration list for PBXNativeTarget "Assignment4UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				C52AC2751DBD9ADB008765EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
